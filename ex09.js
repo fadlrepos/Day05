@@ -1,10 +1,4 @@
-function SafeDevide(a,b){
-    let math = a / b;
-    if(b===0){
-        console.log("can't devide by zero")
-    }
-    else{
-        console.log(math)
-    }
+function isInRange(a){
+    return a<100;
 }
-SafeDevide(70 , 7)
+console.log(isInRange(75))
